@@ -14,7 +14,6 @@ You'll need the following dependencies:
 * libhandy-1-dev >= 0.83.0
 * libjson-glib-dev
 * libplank-dev
-* libsoup2.4-dev
 * libswitchboard-2.0-dev
 * libunity-dev
 * libwingpanel-dev
