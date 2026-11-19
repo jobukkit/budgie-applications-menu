@@ -1,7 +1,7 @@
 # Applications Menu
 [![Translation status](https://l10n.elementary.io/widgets/wingpanel/-/applications-menu/svg-badge.svg)](https://l10n.elementary.io/engage/wingpanel/?utm_source=widget)
 
-Lightweight and stylish app launcher.
+This is a fork of the Ubuntu Budgie applications menu that continues to work correctly on Budgie 10.9, the last version that uses Xorg/XLibre.
 
 ![Screenshot](data/screenshot.png?raw=true)
 
