@@ -1,7 +1,11 @@
 # Applications Menu
 [![Translation status](https://l10n.elementary.io/widgets/wingpanel/-/applications-menu/svg-badge.svg)](https://l10n.elementary.io/engage/wingpanel/?utm_source=widget)
 
-This is a fork of the Ubuntu Budgie applications menu that continues to work correctly on Budgie 10.9, the last version that uses Xorg/XLibre.
+This is a fork of the Ubuntu Budgie applications menu that continues to compile and work well on other distributions. Tested on:
+- Solus with Budgie 10.10 on Wayland
+- Solus with [Rill](https://codeberg.org/lzj15/rill)/[River](https://isaacfreund.com/software/river/) on Wayland
+- Void Linux with Budgie 10.9 [on XLibre](https://github.com/xlibre-void/xlibre)
+- OpenMandriva with Budgie 10.9 on XLibre
 
 ![Screenshot](data/screenshot.png?raw=true)
 
@@ -24,7 +28,7 @@ You'll need the following dependencies:
 
 Run `meson` to configure the build environment and then `ninja` to build
 
-    meson build --prefix=/usr
+    meson build --prefix=/usr -Dfor-wayland=true # or false when using XLibre
     cd build
     ninja
 
